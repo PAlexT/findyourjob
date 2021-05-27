@@ -1,6 +1,9 @@
-/* .container {
-    width: 1145px;
-} */
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
 * {
     font-family: 'Fira Sans', sans-serif;
     color: #111238;
@@ -8,9 +11,10 @@
     font-weight: 400;
 }
 
-/* .header{
-    margin-top: 44px;
-} */
+header{
+    background: #F2F3F6;
+    padding-bottom: 56px;
+}
 body {
     margin: 0;
 }
@@ -59,6 +63,15 @@ a {
 
 }
 
+.button_icon {
+    vertical-align: middle;
+    margin-right: 10px;
+}
+
+.button_text {
+    vertical-align: middle;
+}
+
 .hero_title {
     font-weight: 900;
     font-size: 44px;
@@ -66,32 +79,55 @@ a {
 }
 
 .hero_descr {
-    /* margin-top: 15px; */
+    margin-top: 15px;
     font-size: 18px;
     line-height: 140%;
 }
 
-/* .input_group {
-    margin-top: 30px;
+.input_group {
     width: 447px;
-    height: 70px;
+    margin-top: 30px;
+    background: #FFFFFF;
+    border: 1px solid rgba(209, 209, 209, 0.1);
+    box-shadow: 0px 4px 25px rgba(15, 17, 56, 0.1);
+    border-radius: 5px;
+    padding: 10px;
+    padding-left: 15px;
+}
 
-} */
-
- .button_text {
+.button_text {
     color: #ffffff;
 }
 
-/* .input {
+.input {
+    background-color: #fff;
     border: none;
+    flex-grow: 1;
+    font-size: 16px;
+    line-height: 19px;
+
+    &:focus {
+        outline: 1px dotted #666;
+    }
 }
 
-.tags_label,
-.tag {
+.tags_group {
+    margin-top: 25px;
+    padding-left: 15px;
+    color: #b2b2b2;
     font-size: 14px;
-    color: #B2B2B2;
 }
 
 .tag {
-    border-color: #B2B2B2;
-}  */
+    color: #b2b2b2;
+    text-decoration: none;
+    padding: 5px 10px;
+    margin-left: 10px;
+    border: 1px solid #B2B2B2;
+    border-radius: 5px;
+    
+}
+
+.tags_label {
+    color: #b2b2b2;
+}
