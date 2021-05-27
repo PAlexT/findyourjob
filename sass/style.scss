@@ -5,6 +5,7 @@
     font-family: 'Fira Sans', sans-serif;
     color: #111238;
     font-size: 16px;
+    font-weight: 400;
 }
 
 /* .header{
@@ -12,6 +13,11 @@
 } */
 body {
     margin: 0;
+}
+
+a {
+    color: #111238;
+    text-decoration: none;
 }
 
 .menu {
@@ -37,6 +43,7 @@ body {
     display: inline-block;
     color: #111238;
     text-decoration: none;
+    border: none;
 }
 
 .button_link {
@@ -51,3 +58,40 @@ body {
     color: #ffffff;
 
 }
+
+.hero_title {
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 53px;
+}
+
+.hero_descr {
+    /* margin-top: 15px; */
+    font-size: 18px;
+    line-height: 140%;
+}
+
+/* .input_group {
+    margin-top: 30px;
+    width: 447px;
+    height: 70px;
+
+} */
+
+ .button_text {
+    color: #ffffff;
+}
+
+/* .input {
+    border: none;
+}
+
+.tags_label,
+.tag {
+    font-size: 14px;
+    color: #B2B2B2;
+}
+
+.tag {
+    border-color: #B2B2B2;
+}  */
